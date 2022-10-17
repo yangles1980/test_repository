@@ -1,0 +1,50 @@
+{
+  "name": "servicenow-optimiz",
+  "version": "1.4.1",
+  "description": "ServiceNow Developed by Optimiz ca",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign"
+  },
+  "author": "osamaawwad",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "^8.3.4",
+    "@grafana/toolkit": "^8.3.4",
+    "@grafana/ui": "^8.3.4",
+    "@testing-library/jest-dom": "5.4.0",
+    "@testing-library/react": "^10.0.2",
+    "@types/lodash": "^4.14.178"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "@grafana/runtime": "^8.3.4",
+    "@types/request": "^2.48.7",
+    "collections": "^5.1.12",
+    "memory-cache": "^0.2.0",
+    "postcss": "^8.4.5",
+    "react-select": "^3.2.0",
+    "tslib": "^2.3.1"
+  },
+  "resolutions": {
+    "immer": "^9.0.7",
+    "set-value": "^4.0.1",
+    "yargs-parser": "^13.1.2",
+    "ansi-regex": "^5.0.1",
+    "json-schema": "^0.4.0",
+    "marked": "^4.1.0",
+    "follow-redirects": "^1.14.8",
+    "prismjs": "^1.27.0",
+    "simple-git": "^3.5.0",
+    "@braintree/sanitize-url": "^6.0.0",
+    "moment": "^2.29.4",
+    "minimist": "^1.2.6",
+    "terser": "^4.8.1"
+  }
+}
